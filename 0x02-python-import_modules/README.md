@@ -172,3 +172,6 @@ exit with the value 1
   - str.join()
   - any string literal
   - any system calls
+
+# [Author]
+* Lomotey Okantah Emmanuel
