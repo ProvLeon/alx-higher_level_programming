@@ -1,11 +1,11 @@
 # Test-driven development
 
-Project done during **Full Stack Software Engineering studies** . It aims to learn about docstrings to create and implement tests in **Python**.
+Project done during **Full Stack Software Engineering Studies by ALX SE** . It aims to help learn about docstrings to create and implement tests in **Python**.
 
 ## Technologies
-* Python Scripts are written with Python 3.4.3
-* C files are compiled using `gcc 4.8.4`
-* Tested on Ubuntu 14.04 LTS
+* The Python Scripts are written with `Python 3`
+* The C files are compiled using `gcc 4`
+* Tested on `Ubuntu 14 LTS`
 
 ## Files
 | Filename | Description |
@@ -19,3 +19,6 @@ Project done during **Full Stack Software Engineering studies** . It aims to lea
 | `100-matrix_mul.py` | Function that multiplies 2 matrices (Doctest on `tests/100-matrix_mul.txt`) |
 | `101-lazy_matrix_mul.py` | Function that multiplies 2 matrices by using the module **NumPy** (Doctest on `tests/101-lazy_matrix_mul.txt`) |
 | `102-python.c` | Function that prints Python strings |
+
+## Author
+* Lomotey Okantah Emmanuel
