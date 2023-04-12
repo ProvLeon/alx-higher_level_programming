@@ -3,6 +3,7 @@ This is a **Full Stack Software Engineering** Project by **ALX SE**, this aims a
 
 ## Description of Files
 | Files | Description |
+|-------|-------------|
 | 0x0A-python-inheritance | Prints out the list of available attributes and methods of an object. |
 
 ## Files
