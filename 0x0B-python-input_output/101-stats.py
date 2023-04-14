@@ -10,26 +10,32 @@ prints the following statistics:
 
 
 import sys
-from collections import defaultdict
+import signal
 
 total_size = 0
-status_counts = defaultdict(int)
+status_codes = {200: 0, 301: 0, 400: 0, 401: 0, 403: 0, 404: 0, 405: 0, 500: 0}
 line_count = 0
 
-try:
-    for line in sys.stdin:
+def signal_handler(sig, frame):
+    print_stats()
+    sys.exit(0)
+
+def print_stats():
+    print(f"Total file size: {total_size}")
+    for status_code, count in sorted(status_codes.items()):
+        if count > 0:
+            print(f"{status_code}: {count}")
+
+signal.signal(signal.SIGINT, signal_handler)
+
+for line in sys.stdin:
+    parts = line.split()
+    if len(parts) == 6:
+        status_code = int(parts[3])
+        if status_code in status_codes:
+            status_codes[status_code] += 1
+        total_size += int(parts[4])
         line_count += 1
-        fields = line.strip().split()
-        total_size += int(fields[-1])
-        status_counts[fields[3]] += 1
-        
         if line_count % 10 == 0:
-            print(f"Total file size: {total_size}")
-            for code in sorted(status_counts.keys()):
-                print(f"{code}: {status_counts[code]}")
-                
-except KeyboardInterrupt:
-    print(f"\nTotal file size: {total_size}")
-    for code in sorted(status_counts.keys()):
-        print(f"{code}: {status_counts[code]}")
+            print_stats()
 
