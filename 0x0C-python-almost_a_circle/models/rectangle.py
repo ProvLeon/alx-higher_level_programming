@@ -17,8 +17,6 @@ class Rectangle(Base):
             id: id of the rectangle. Defaults to None.
         """
         super().__init__(id)
-        """only that
-        """
         self.width = width
         self.height = height
         self.x = x
