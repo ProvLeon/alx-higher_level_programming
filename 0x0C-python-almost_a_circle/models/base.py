@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
 class Base:
+    """Base class for all objexts
+    """
     __nb_objects = 0  # private class attribute
 
     def __init__(self, id=None):
