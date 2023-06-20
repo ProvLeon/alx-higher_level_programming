@@ -46,4 +46,3 @@ if __name__ == "__main__":
 
     # Call the function to list states
     list_states(username, password, database)
-
