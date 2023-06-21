@@ -3,6 +3,7 @@
 Lists all State objects from the database hbtn_0e_6_usa.
 Usage: ./7-model_state_fetch_all.py
 """
+
 import sys
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
@@ -17,4 +18,3 @@ if __name__ == "__main__":
 
     for state in session.query(State).order_by(State.id):
         print("{}: {}".format(state.id, state.name))
-
