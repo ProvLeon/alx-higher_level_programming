@@ -3,5 +3,6 @@
         "editor.defaultFormatter": "ms-python.autopep8"
     },
     "python.formatting.provider": "autopep8",
-    "jira-plugin.workingProject": ""
+    "jira-plugin.workingProject": "",
+    "todo-tree.tree.scanMode": "workspace only"
 }
