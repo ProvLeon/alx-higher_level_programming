@@ -20,6 +20,6 @@ if __name__ == '__main__':
     for state in states:
         print(state)
 
-    # Close the cursor and database connection
+    # Close the cursor and database connections
     cursor.close()
     db.close()
