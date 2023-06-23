@@ -15,7 +15,7 @@ if __name__ == "__main__":
         'mysql+mysqldb://{}:{}@localhost/{}'
         .format(argv[1],
         argv[2],
-        argv[3])),
+        argv[3]))
 
     Base.metadata.create_all(engine)
     Session = sessionmaker(bind=engine)
