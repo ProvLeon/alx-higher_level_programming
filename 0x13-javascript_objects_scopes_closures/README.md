@@ -4,11 +4,11 @@ In this second Holberton JavaScript project I dived into the infamously fun
 aspects of the language - scope, closures and `this`. I practiced working with
 objects and ES6-style classes.
 
-## Tests :heavy_check_mark:
+## Tests :heavy_check_mark
 
 * [tests](./tests): Folder of test files. Provided by Holberton School.
 
-## Function Prototypes :floppy_disk:
+## Function Prototypes :floppy_disk
 
 Prototypes for functions written in this project:
 
@@ -19,8 +19,7 @@ Prototypes for functions written in this project:
 | `9-logme.js`       | `exports.logMe = function (item)`                       |
 | `10-converter.js`  | `exports.converter = function (base)`                   |
 
-
-## Tasks :page_with_curl:
+## Tasks :page_with_curl
 
 * **0. Rectangle #0**
   * [0-rectangle.js](./0-rectangle.js): JavaScript script that defines an empty
@@ -93,8 +92,7 @@ Prototypes for functions written in this project:
   passed as arguments into a file specifed as the third argument.
   * Usage: `./102-concat.js fileA fileB fileC`.
 
-
 ## Author
 
 * **Lomotey Emmanuel**
-* **GitHub** - [ProvLeon](https://github.com/ProvLeon
+* **GitHub** - [ProvLeon](https://github.com/ProvLeon)
