@@ -1,6 +1,7 @@
 # 0x0D-SQL_introduction
 
-## what I am expecting after this project:
+## what I am expecting after this project
+
 - What’s a database
 - What’s a relational database
 - What does SQL stand for
