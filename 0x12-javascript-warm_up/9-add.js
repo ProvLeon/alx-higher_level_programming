@@ -7,7 +7,7 @@ function add (a, b) {
 const A = Number(process.argv[2]);
 const B = Number(process.argv[3]);
 
-if (typeof A === 'number' && typeof B === 'number') {
+if (A === Number &&  B === Number) {
   console.log(add(A, B));
 } else {
   console.log('NaN');
