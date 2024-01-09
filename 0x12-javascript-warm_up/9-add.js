@@ -3,11 +3,12 @@
 function add (a, b) {
   return (a + b);
 }
+const args = process.argv;
 
-const A = Number(process.argv[2]);
-const B = Number(process.argv[3]);
+const A = Number(args[2]);
+const B = Number(args[3]);
 
-if (A === Number &&  B === Number) {
+if (typeof A === 'number' && typeof B === 'number') {
   console.log(add(A, B));
 } else {
   console.log('NaN');
