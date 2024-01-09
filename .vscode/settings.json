@@ -4,5 +4,20 @@
     },
     "python.formatting.provider": "autopep8",
     "jira-plugin.workingProject": "",
-    "todo-tree.tree.scanMode": "workspace only"
+    "todo-tree.tree.scanMode": "workspace only",
+    "sqltools.connections": [
+      {
+        "mysqlOptions": {
+          "authProtocol": "default",
+          "enableSsl": "Disabled"
+        },
+        "previewLimit": 50,
+        "server": "localhost",
+        "port": 3306,
+        "driver": "MySQL",
+        "name": "Test",
+        "database": "test",
+        "username": "root"
+      }
+    ]
 }
