@@ -3,7 +3,6 @@
 a script that lists all State objects
 '''
 
-
 from sys import argv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
